@@ -1,0 +1,28 @@
+person:
+  userName: "zhangsan \n 李四"
+#单引号会将\n字符串输出  双引号会将\n作为换行输出
+#双引号不会转义，单引号会转义
+  boss: true
+  birth: 2019/12/6
+  age: 18
+  interests: [篮球，羽毛球]
+  animal: [小猫，小狗]
+#  score:
+#   english: 80
+#    math: 90
+  score: {english: 80,math: 90}
+  salarys:
+    - 9999.8
+    - 9999.9
+  pet:
+    name: 阿狗
+    weight: 10
+  allPets:
+    sick:
+      - {name: 阿狗,weight: 10}
+      - name: 阿狗
+        weight: 20
+      - name: 阿飞
+        weight: 30
+    health:
+      - {name: 阿花,weight: 50}
